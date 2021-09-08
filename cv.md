@@ -19,3 +19,25 @@ I want to learn new things, namely development, and this is very interesting for
 
 ---
 
+### Skills and Proficiency:
+
+- HTML5, CSS3
+- JavaScript Basics
+- Git, GitHub
+- VS Code,
+
+---
+
+### Code example:
+
+```javascript
+const list = ['a', 'b', 'c']
+let i = 0
+while (i < list.length) {
+  console.log(list[i]) 
+  console.log(i) 
+  i = i + 1
+};
+```
+---
+
