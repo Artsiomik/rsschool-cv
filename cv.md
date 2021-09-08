@@ -41,3 +41,14 @@ while (i < list.length) {
 ```
 ---
 
+### Courses:
+
+- JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
+
+---
+
+### Languages:
+- Russian \- Native
+- English \- Elementary
+
+
