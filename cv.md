@@ -1,13 +1,13 @@
 # Artsiom Braslauski
-### Junior Frontend Developer
+
 
 ---
 
 ### Contact information:
 
 **Phone:** +375447248996<br>
-**E-mail:** @gmail.com<br>
-**Telegram:** @m<br>
+**E-mail:** artyomvsartyom52@gmail.com<br>
+**Telegram:** @Malchish7777<br>
 
 ---
 
