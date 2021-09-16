@@ -13,6 +13,22 @@
 	<div class="wrapper">
 		<div class="content">
 			<div class="name">
+				<div class="berger_menu">
+					<div class="container_menu">
+						<div class="burger_row">
+							<input type="checkbox" id="check-menu">
+							<label for="check-menu">MENU</label>
+							<div class="burger-line first"></div>
+							<div class="burger-line second"></div>
+							<div class="burger-line third"></div>
+							<div class="burger-line fourth"></div>
+							<nav class="main-menu">
+								<a href="#about_title">Briefly About Myself</a>
+								<a href="#columns_title">Basic skills and more</a>
+							</nav>
+						</div>
+					</div>
+				</div>
 				<div class="container">
 					<div class="name_row">
 						<div class="name_body">
@@ -38,9 +54,9 @@
 							<img src="image/new about.jpg" width="400" height="300" alt="каринка с текстом about me">
 						</div>
 						<div class="about_body">
-							<div class="about_title title">
+							<section id="about_title" class="about_title title">
 								Briefly About Myself:
-							</div>
+							</section>
 							<div class="about_text">
 								<p>I am 34 years old, 14 of which I work as a massage therapist. In my current job, I have
 									achieved excellent results, and there is nowhere else to grow (</p>
@@ -55,7 +71,7 @@
 			</div>
 			<div class="columns">
 				<div class="container">
-					<div class="columns_title title">Basic skills and more</div>
+					<section id="columns_title" class="columns_title title">Basic skills and more:</section>
 					<div class="columns_row">
 						<div class="columns_column">
 							<div class="columns_item item">
@@ -87,9 +103,31 @@
 									<div class="item_body">
 										<div class="item_title">Code example:</div>
 										<div class="item_text">
-											<p>const list = ['a', 'b', 'c']
-												let i = 0
-												while (i < list.length) { console.log(list[i]) console.log(i) i=i + 1 };</p>
+											<p><span style="color: hotpink;">const</span> <span style="color: coral;">list</span> =
+												<span style="color: blue;">[</span> <span style="color: green;">'</span><span
+													style="color: green;">a</span><span style="color: green;">'</span>, <span
+													style="color: green;">'</span><span style="color: green;">b</span><span
+													style="color: green;">'</span>, <span style="color: green;">'</span><span
+													style="color: green;">c</span><span style="color: green;">'</span>
+												<span style="color: blue;">]</span>
+												<span style="color: hotpink;">let</span> <span style="color: red;">i</span> = <span
+													style="color: coral;">0</span>
+												<span style="color: hotpink;">while</span> <span style="color: blue;">(</span> <span
+													style="color: red;">i</span>
+												< <span style="color: red;">list</span>.<span style="color: red;">length</span>
+													<span style="color: blue;">)</span>
+													<span style="color: blue;">{</span> <span
+														style="color: red;">console</span>.<span
+														style="color: #FF00FF;">log</span><span style="color: #A52A2A;">(</span><span
+														style="color: red;">list</span><span style="color: #A52A2A;">[</span><span
+														style="color: red;">i</span><span style="color: #A52A2A;">]</span><span
+														style="color: #A52A2A;">)</span> <span
+														style="color: red;">console</span>.<span
+														style="color: #FF00FF;">log</span><span style="color: #A52A2A;">(</span><span
+														style="color: red;">i</span><span style="color: #A52A2A;">)</span>
+													<span style="color: red;">i</span>=<span style="color: red;">i</span> +
+													<span style="color: coral;">1</span> <span style="color: blue;">}</span>;
+											</p>
 										</div>
 									</div>
 								</div>
@@ -104,7 +142,7 @@
 									<div class="item_body">
 										<div class="item_title">Courses:</div>
 										<div class="item_text">
-											<p>JavaScript Manual on learnjavascript.ru (in progress)
+											<p>JavaScript Manual on learn.javascript.ru (in progress)
 											</p>
 										</div>
 									</div>
